@@ -1,0 +1,10 @@
+.place__website{
+  order:2;
+}
+
+@media (max-width:749px){
+  .place__website{
+    max-width: 288px;
+    margin: 0 16px;
+  }
+}

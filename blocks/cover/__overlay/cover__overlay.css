@@ -1,0 +1,11 @@
+.cover__overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1184px;
+  height: 100%;
+  opacity: 0.3;
+  background-color: #2a2c2f;
+  z-index: -1;
+  transition: all .5s ease-in;
+}
