@@ -9,6 +9,7 @@
   position: relative;
   aspect-ratio: 16/10;
   z-index: 1;
+  text-decoration: none;
 }
 
 .cover__background:hover .cover__overlay {
