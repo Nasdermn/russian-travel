@@ -1,8 +1,9 @@
 .place__website{
   order:2;
+  align-self: flex-end;
 }
 
-@media (max-width:749px){
+@media screen and (max-width:749px){
   .place__website{
     max-width: 288px;
     margin: 0 16px;

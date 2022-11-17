@@ -8,9 +8,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:501px) and (max-width:768px){
   .header{
-    padding: 24px 28px 0;
+    padding: 28px 24px 0;
   }
 }
 @media screen and (max-width:500px){

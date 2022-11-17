@@ -23,18 +23,13 @@
   .place {
     column-gap: 28px;
     grid-template-columns: fit-content(340px) fit-content(352px);
+    margin-bottom: 73px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 749px) {
+@media screen and (max-width: 749px) {
   .place {
-    grid-template-columns: 320px;
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .place {
-    grid-template-columns: fit-content(200px);
+    grid-template-columns: fit-content(320px);
     row-gap: 32px;
   }
 }
