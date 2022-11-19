@@ -31,5 +31,6 @@
   .place {
     grid-template-columns: fit-content(320px);
     row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
